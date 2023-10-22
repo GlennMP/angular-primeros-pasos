@@ -1,0 +1,9 @@
+<div class="row">
+    <div class="col">
+        <dbz-list [itemsList]="items" (eliminarItem)="eliminarItem($event)"></dbz-list>
+    </div>
+
+    <div class="col">
+       <add-dbz-character (newIte)="newItem($event)"></add-dbz-character>
+    </div>
+</div>
